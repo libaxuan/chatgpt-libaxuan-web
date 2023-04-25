@@ -17,7 +17,7 @@ The Docker version is equivalent to the stable version, and the latest Docker is
 
 ## How to modify Vercel environment variables
 - Enter the Vercel console page;
-- Select your chatgpt-next-web project;
+- Select your chatgpt-libaxuan-web project;
 - Click on the Settings option at the top of the page;
 - Find the Environment Variables option in the sidebar;
 - Modify the corresponding values as needed.

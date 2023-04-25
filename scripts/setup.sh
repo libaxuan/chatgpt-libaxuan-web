@@ -52,7 +52,7 @@ fi
 
 # Clone the repository and install dependencies
 git clone https://github.com/libaxuan/ChatGPT-Libaxuan-Web
-cd ChatGPT-Next-Web
+cd chatgpt-libaxuan-web
 yarn install
 
 # Prompt user for environment variables
