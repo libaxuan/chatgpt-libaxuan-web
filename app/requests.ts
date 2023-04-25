@@ -30,7 +30,7 @@ const makeRequestParam = (
 
   const modelConfig = { ...useAppConfig.getState().modelConfig };
 
-  // @yidadaa: wont send max_tokens, because it is nonsense for Muggles
+  // @libaxuan: wont send max_tokens, because it is nonsense for Muggles
   // @ts-expect-error
   delete modelConfig.max_tokens;
 

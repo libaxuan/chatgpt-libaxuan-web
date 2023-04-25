@@ -9,11 +9,9 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 一键免费部署你的私人 ChatGPT 网页应用。
 
-[Demo](https://chat-gpt-libaxuan-web.vercel.app/) / [Issues](https://github.com/libaxuan/ChatGPT-Libaxuan-Web/issues) / [Join Discord](https://discord.gg/zrhvHCr79N) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
+[Demo](https://chatgpt-libaxuan-web.vercel.app//) 
 
-[演示](https://chat-gpt-libaxuan-web.vercel.app/) / [反馈](https://github.com/libaxuan/ChatGPT-Libaxuan-Web/issues) / [QQ 群](https://user-images.githubusercontent.com/16968934/233002565-139daa1a-eb3a-4a12-ac37-6418e7a15d36.png) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flibaxuan%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/libaxuan/ChatGPT-Libaxuan-Web)
 
@@ -79,7 +77,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flibaxuan%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
 3. Enjoy :)
 
 ## FAQ
@@ -179,12 +177,12 @@ yarn dev
 ### Docker (Recommended)
 
 ```shell
-docker pull yidadaa/chatgpt-next-web
+docker pull libaxuan/chatgpt-libaxuan-web
 
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
-   yidadaa/chatgpt-next-web
+   libaxuan/chatgpt-libaxuan-web
 ```
 
 You can start service behind a proxy:
@@ -194,13 +192,13 @@ docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxxx" \
    -e CODE="your-password" \
    -e PROXY_URL="http://localhost:7890" \
-   yidadaa/chatgpt-next-web
+   libaxuan/chatgpt-libaxuan-web
 ```
 
 ### Shell
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/libaxuan/chatgpt-libaxuan-web/main/scripts/setup.sh)
 ```
 
 ## Screenshots
@@ -210,8 +208,6 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 ![More](./docs/images/more.png)
 
 ## Donation
-
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
 ## Special Thanks
 
