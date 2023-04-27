@@ -83,6 +83,7 @@ export function SideBar(props: { className?: string }) {
   const { onDragMouseDown, shouldNarrow } = useDragSideBar();
   const navigate = useNavigate();
 
+  // @ts-ignore
   return (
     <div
       className={`${styles.sidebar} ${props.className} ${
@@ -94,6 +95,21 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           部署属于您的AI机器人.
         </div>
+        <br>
+          </br>
+        <div className={styles["sidebar-sub-title"]}>
+          <strong>如何使用：</strong>
+          <br />
+          1、使用 <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noreferrer">访问密码</a>
+          <br />
+          2、使用您的Open AI key
+        </div>
+
+        <div className={styles["sidebar-sub-title"]}>
+          <strong>联系我吧：</strong>
+          <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noopener noreferrer">QQ</a>
+        </div>
+
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
         </div>
