@@ -161,6 +161,13 @@ bash <(curl -s https://raw.githubusercontent.com/libaxuan/chatgpt-libaxuan-web/m
 
 [见项目贡献者列表](https://github.com/libaxuan/ChatGPT-Libaxuan-Web/graphs/contributors)
 
+## 赞助
+如果你觉得这个项目对你有帮助，并且情况允许的话，可以给我一点点支持，总之非常感谢支持～
+
+<div>
+    <img src="./docs/wechat.jpg" alt="Settings" width="50%" height="auto">
+</div>
+
 ## 开源协议
 
 > 反对 996，从我开始。

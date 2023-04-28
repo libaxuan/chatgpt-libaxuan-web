@@ -100,14 +100,14 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           <strong>如何使用：</strong>
           <br />
-          1、使用 <a href="https://res.abeim.cn/api/qq/?qq=1107590384" target="_blank" rel="noreferrer">访问密码</a>
+          1、使用 <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noreferrer">访问密码</a>
           <br />
           2、使用您的Open AI key
         </div>
 
         <div className={styles["sidebar-sub-title"]}>
           <strong>联系我吧：</strong>
-          <a href="https://res.abeim.cn/api/qq/?qq=1107590384" target="_blank" rel="noopener noreferrer">QQ</a>
+          <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noopener noreferrer">QQ</a>
         </div>
 
         <div className={styles["sidebar-logo"]}>
@@ -140,7 +140,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            {/*<a href={REPO_URL} target="_blank">*/}
+              <a href="https://autoaigpt.cn" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>

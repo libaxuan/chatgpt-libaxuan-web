@@ -233,6 +233,14 @@ bash <(curl -s https://raw.githubusercontent.com/libaxuan/chatgpt-libaxuan-web/m
 
 [Contributors](https://github.com/libaxuan/ChatGPT-Libaxuan-Web/graphs/contributors)
 
+## 赞助
+
+如果你觉得这个项目对你有帮助，并且情况允许的话，可以给我一点点支持，总之非常感谢支持～
+
+<div>
+    <img src="./docs/wechat.jpg" alt="Settings" width="50%" height="auto">
+</div>
+
 ## LICENSE
 
 [Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)
