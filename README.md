@@ -239,6 +239,7 @@ bash <(curl -s https://raw.githubusercontent.com/libaxuan/chatgpt-libaxuan-web/m
 
 <div>
     <img src="./docs/wechat.jpg" alt="Settings" width="50%" height="auto">
+    <img src="./docs/addweixin.jpg" alt="Settings" width="50%" height="auto">
 </div>
 
 ## LICENSE
