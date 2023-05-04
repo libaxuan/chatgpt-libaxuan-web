@@ -98,16 +98,19 @@ export function SideBar(props: { className?: string }) {
         <br>
           </br>
         <div className={styles["sidebar-sub-title"]}>
-          <strong>如何使用：</strong>
+          <strong>如何使用（以下任意一种方式均可以）：</strong>
           <br />
-          1、使用 <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noreferrer">访问密码</a>
+          1、使用访问密码
           <br />
           2、使用您的Open AI key
         </div>
 
         <div className={styles["sidebar-sub-title"]}>
           <strong>联系我吧：</strong>
-          <a href="https://wpa.qq.com/msgrd?v=3&uin=1107590384&site=qq&menu=yes" target="_blank" rel="noopener noreferrer">QQ</a>
+          <br />
+          <a href="https://sensechat.vip/" target="_blank" rel="noopener noreferrer">Q:1107590384</a>
+          <br />
+          <a href="https://sensechat.vip/" target="_blank" rel="noreferrer">V:autoaigptcn</a>
         </div>
 
         <div className={styles["sidebar-logo"]}>
